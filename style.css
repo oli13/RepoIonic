@@ -1,0 +1,33 @@
+.weather-home {
+    background-image: url('../img/sky.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex: 1;
+    flex-direction: column;
+}
+
+.forecast {
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigText {
+    flex: 2;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.mainText {
+    flex: 1;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon {
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
